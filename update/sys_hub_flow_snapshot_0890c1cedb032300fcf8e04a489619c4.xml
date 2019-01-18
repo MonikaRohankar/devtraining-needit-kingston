@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Steps to approve and fulfill NeedIt requests.</description>
+        <label_cache>[{"name":"Created_1.current.u_when_needed","label":"Trigger➛NeedIt Record➛When needed","reference":"","reference_display":"When needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"u_when_needed"},{"name":"c9466097-9c92-4c60-862c-c0b48649afcf.table_name","label":"3.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table"},{"name":"c9466097-9c92-4c60-862c-c0b48649afcf.record","label":"3.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record"},{"name":"adac13e3-e213-4c82-afc2-e7c03bec4459.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table"},{"name":"adac13e3-e213-4c82-afc2-e7c03bec4459.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.u_requested_for","label":"Trigger➛NeedIt Record➛Requested for","reference":"sys_user","reference_display":"Requested for","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_needit","column_name":"u_requested_for"},{"name":"116a1446-c477-4a82-be5c-0164926de87f.approval_state","label":"2➛Approval State","reference_display":"Approval State"},{"name":"Created_1.current.u_request_type","label":"Trigger➛NeedIt Record➛Request type","reference":"","reference_display":"Request type","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_request_type","choices":[{"used":false,"reference":false,"label":"Human Resources","missing":false,"image":"","rawLabel":"Human Resources","selected":false,"value":"hr"},{"used":false,"reference":false,"label":"Facilities","missing":false,"image":"","rawLabel":"Facilities","selected":false,"value":"facilities"},{"used":false,"reference":false,"label":"Legal","missing":false,"image":"","rawLabel":"Legal","selected":false,"value":"legal"}]},{"name":"f8ef0e4b-c772-4fb6-a3df-814088fd79cc.Table","label":"3.2.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table"},{"name":"f8ef0e4b-c772-4fb6-a3df-814088fd79cc.Record","label":"3.2.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record"}]</label_cache>
+        <name>ExerciseNeedItFullfillment</name>
+        <parent_flow display_value="ExerciseNeedItFullfillment">12e42f21db032300fcf8e04a48961945</parent_flow>
+        <remote_trigger_id>37200d8edb032300fcf8e04a48961984</remote_trigger_id>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-18 07:34:26</sys_created_on>
+        <sys_id>0890c1cedb032300fcf8e04a489619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ExerciseNeedItFullfillment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_0890c1cedb032300fcf8e04a489619c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-18 07:34:26</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
